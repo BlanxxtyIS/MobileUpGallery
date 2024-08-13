@@ -4,26 +4,17 @@ PODS:
   - VKIDCore (2.1.0)
 
 DEPENDENCIES:
-  - VKID (from `https://github.com/VKCOM/vkid-ios-sdk.git`, branch `2.1.0`)
+  - VKID (~> 2.1)
 
 SPEC REPOS:
   trunk:
+    - VKID
     - VKIDCore
-
-EXTERNAL SOURCES:
-  VKID:
-    :branch: 2.1.0
-    :git: https://github.com/VKCOM/vkid-ios-sdk.git
-
-CHECKOUT OPTIONS:
-  VKID:
-    :commit: 7c8ea8434f88cd0d04b071d087fc5e4a0a849ea2
-    :git: https://github.com/VKCOM/vkid-ios-sdk.git
 
 SPEC CHECKSUMS:
   VKID: 4f3334067ed3e0eecfd14f1f6f6bad81ced567f2
   VKIDCore: d81f5436dccf60ec109f3c6446fa1118a1aedbf0
 
-PODFILE CHECKSUM: 48a100f413d79b0bf661b942312a121abb54b916
+PODFILE CHECKSUM: 06ec8fbc5b29588cd621e6c667d94ecdc588da98
 
 COCOAPODS: 1.15.2
